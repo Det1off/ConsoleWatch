@@ -8,7 +8,7 @@ int main() {
 
     while (true) {
         SYSTEMTIME now;
-        GetSystemTime(&now);
+        GetLocalTime(&now);
 
         cout << "==========================================" << "\n";
         cout << "||                                      ||" << "\n";
